@@ -1,0 +1,32 @@
+{
+    "input": {
+        "customer_name": "Williams-Clark",
+        "engagement_type": "Tax Consulting SOW",
+        "services": [
+            "Corporate tax strategy planning",
+            "State and local tax compliance review",
+            "International tax optimization",
+            "Tax risk management and mitigation"
+        ],
+        "fee_structure": {
+            "feeAmount": 25000,
+            "paymentSchedule": [
+            "Initial invoice upon receiving the signed SOW",
+            "Progress invoice at 50% project completion",
+            "Final invoice upon project delivery"
+            ]
+        },
+        "timeline": { 
+            "informationDeadline": "2023-07-15",
+            "completionDate": "2023-12-20"
+        },
+        "signer_info": {
+            "name": "name",
+            "title": "title"
+        },
+        "partner_info": {
+            "partnerName": "Emily Smith",
+            "partnerContact": "(555) 123-4567"
+        }
+    }
+}
