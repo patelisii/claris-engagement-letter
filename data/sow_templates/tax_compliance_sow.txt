@@ -1,0 +1,91 @@
+Date 
+ 
+ 
+Signer’s Name, Signer’s Title 
+Client Name 
+Address 
+City, State, Zip 
+ 
+2021 Tax Compliance Statement of Work 
+ 
+Dear Signer: 
+ 
+This Statement of Work (“SOW”) confirms our mutual understanding of the terms of our engagement regarding the scope of our compliance services we will provide for XYZ (the “Taxpayer”) for the year ended December 31, 2021.  AAFCPAs, Inc. will provide tax compliance services outlined below.  The Master Service Agreement (“MSA”) contains the terms and conditions of this engagement and will govern the professional services which are subject to this SOW.   
+ 
+During the course of preparing the tax return(s) identified below, we may bring to your attention potential tax savings strategies for you to consider as a possible means of reducing your taxes in subsequent tax years.  However, we have no responsibility to do so, and will take no action with respect to such recommendations, as the responsibility for implementation remains with you, the Taxpayer. {Remove the next sentence if tax planning is included in this SOW} This SOW does not include tax planning or consulting services.   If you ask us to provide additional tax planning or consulting services, we will confirm this representation in a separate SOW if they exceed our maximum for de minimis consulting services of $2,500. 
+ 
+AAFCPAs, Inc. will prepare the following Federal and requested tax returns and your estimated tax vouchers:  
+ 
+Federal; 
+State 1; 
+State 2;  
+State 3. 
+ 
+Our engagement is limited to the deliverables listed above. {If tax planning is included in the SOW add additional sentence} We will also perform year-end (or quarterly) tax planning work.  
+ 
+[INCLUDE THIS PARAGRAPH IF PART OF AN AUDIT, MANDATORY] 
+We will not otherwise perform audit procedures with respect to your tax return information over and above those performed in connection with your audited financial statements, the objective of which is to provide an opinion in accordance with applicable auditing standards. 
+ 
+Unless otherwise noted, we will perform our services in accordance with the Statements on Standards for Tax Services (“SSTSs”) issued by the American Institute of Certified Public Accountants (“AICPA”) and U.S. Treasury Department Circular 230 (“Circular 230”). It is our duty to perform services with the same standard of care that a reasonable tax return preparer would exercise in this type of engagement.  It is your responsibility to safeguard your assets and maintain accurate records pertaining to transactions.  We have specifically not performed a review of the intercompany transactions in the course of our preparation of the returns, nor do we provide an opinion on the propriety of these amounts in light of IRC Section 482.  
+ 
+[INCLUDED WITH AUDIT/REVIEW/COMP ENGAGEMENT LETTER OPTION] 
+Our fees for this engagement are included in the fee quote provided in our separate engagement letter for {AUDIT/REVIEW/COMPILATION} services, plus related clerical costs, assuming you meet the agreed  upon deadline for providing a complete package of information necessary to prepare the returns.  Additional state returns not listed above will be charged separately at $1,000 per state. If the scope changes, we will call you to discuss the fee increase and confirm in writing (includes email).  You agree to reimburse us for any out-of-pocket costs incurred in connection with the performance of these services. You agree to reimburse us for any out-of-pocket costs incurred in connection with the performance of these services. 
+ 
+Our fees for this engagement will be billed and invoiced according to the terms specified in the Audit engagement letter.  You agree to reimburse us for any out-of-pocket costs incurred in connection with the performance of these services.  Before an invoice is issued, a member of the engagement team will reach out to you to discuss the details of the invoice and the proposed amounts.  Payment is due upon receipt of our invoice and a service charge of 1½% per month will be assessed on all balances over 30 days old.  All services may be suspended if your account balance becomes 45 days past due and will not be resumed until your account is paid in full. 
+ 
+INCLUDED WHEN ONLY TAX COMPLIANCE, NO AUDIT WORK 
+Based on our experience with engagements of similar size and complexity, our fees for this engagement will be $XX,XXX, plus related clerical costs assuming you meet the agreed upon deadline of providing a complete package of information necessary to prepare the returns. Additional state returns not listed above will be charged separately at $1,000 per state.  Fees for additional tax consulting, research, bookkeeping assistance, processing 1099s and projection work will be determined on a project basis and discussed with you in advance. We will confirm this representation in a separate SOW. 
+ 
+You agree to reimburse us for any out-of-pocket costs incurred in connection with the performance of these services.  Before an invoice is issued, a member of the engagement team will reach out to you to discuss the details of the invoice and the proposed amounts.  Payment is due upon receipt of our invoice and a service charge of 1½% per month will be assessed on all balances over 30 days old.  All services may be suspended if your account balance becomes 45 days past due and will not be resumed until your account is paid in full. 
+ 
+Our fee(s) for this engagement will be invoiced in accordance with the following schedule: 
+ 
+Initial invoice upon receiving the signed SOW;  
+Progress invoice when extensions filed, if applicable; and 
+Final invoice upon completion and delivery of the return. 
+ 
+Any de minimis tax planning and consulting services we may provide, upon your request, under this statement of work will be invoiced separately on a project basis. 
+ 
+If Taxpayer elects to pay any invoice by credit card payment, and such method of payment is approved by AAFCPAs, in its sole discretion, Client is responsible for providing a valid credit card account number, as applicable, at the time Client registers to pay by credit card. Client represents and warrants that Client is an authorized user of the credit card account number provided, and Client agrees to pay all charges resulting from Client’s use of a credit card account, including, but not limited to, any unauthorized charges incurred prior to Client’s notifying AAFCPAs of such charges. Client agrees that AAFCPAs may pass Client’s credit card account information to its designated service provider(s) for their use in processing such payments.  We utilize third party payment providers to process credit card payments on AAFCPA’s behalf (“Payment Provider”). Such Payment Provider’s policies govern the processing of your payment.   Those policies, not this Agreement, determine your rights and liabilities. By providing your credit card information to the Payment Provider, you authorize AAFCPAs, through the Payment Provider, to immediately pay the invoice for the AAFCPAs Service during any applicable term for AAFCPAs Service.  The Payment Providers policies determine your rights and liabilities.  All payments made by credit card will be assessed a 1.5% convenience fee, added to the invoice and charged at the time of processing. This convenience fee is administered in accordance with the Commonwealth of Massachusetts criteria contained in opinions 08-041, 11-017, 13-010, 13-014, and 19-010 and therefore administered in accordance with M.G.L c. 255D and M.G.L. c. 140D § 28A. 
+
+By signing this Statement of Work you agree to such terms as outlined here and in the MSA dated ________, _______.   
+ 
+Due to tax filing deadlines and to balance the work of all of our clients, the information needed to complete the requested returns must be received no later than ___________,_____ so that the work may be completed by the filing deadline of ___________,_____. If we do not receive the requested information by then, we reserve the right to extend the returns listed above.  To be able to file an accurate extension and to accurately calculate the balances due, if applicable, we must receive all of your information by the date above.  Extensions found to be invalid may be subject to significant penalties for late filing. 
+ 
+SUBSTANTIATION RULES:  Internal Revenue Code Section 274(d) disallows deductions unless you substantiate the following items by "adequate records or sufficient evidence" corroborating your own statements: 
+
+Out of town and local travel:  Time, place, amount, and business purpose with documentary evidence of lodging and other items of $75 or more. 
+Entertainment or entertainment facility:  Amount, time and place of entertainment or time and place of use of facility, business purpose, and business relationship.  Except for "business meals," entertainment must directly precede or follow substantial and bona fide business discussion.  In all cases entertainment must relate to active conduct of trade or business.  Only 50% of unreimbursed meals can be deducted; persons making reimbursement may deduct only 50%. 
+Business gifts (limited to $25/person/year):  Amount, date and description of gift, business purpose, and business relationship. 
+Listed property (including passenger autos, light trucks, airplanes, and other transportation property, as well as home computers not used in a qualified home office):  Amount of expenditure, business usage based on appropriate measure (i.e. mileage, time used) and total usage, time, and business purpose.  Tax return questions must be answered concerning the amount and substantiation of business use; while records can be kept on a sample basis if the sample is representative (e.g., three representative months); the only "safe" practice is to keep a contemporaneous log of business use for at least a sample period. 
+Employee reimbursements for automobile and other business expenses must be made pursuant to an “accountable plan”, which requires the submission of expense reports.  Reimbursement of some out-of-town travel expenses is excluded from this requirement if made under IRS per diem guidelines.  Payment of allowances without employee substantiation “nonaccountable plan” is to be reported as wage income on the recipient’s Form W-2. 
+ 
+The taxpayer authorizes that any and all information furnished to us for or in connection with the preparation of tax returns under this engagement letter may, for a period of up to seven years from the date of this engagement letter, be disclosed to Broadstreet Group in the Netherlands and Sarah Riley in New Zealand, located outside the United States, engaged directly or indirectly in providing tax planning or preparation of tax returns. Disclosures under this paragraph may consist of all information contained in tax returns. If the taxpayer wishes to request a limited disclosure of tax return information, the taxpayer must inform us. The taxpayer acknowledges that their tax return information may be disclosed to our affiliates, related entities or subcontractors located outside the United States. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We appreciate the opportunity to be of service to you.  If you have any questions, please call ________(Partner Name) at (508) 366-9100.   
+ 
+ 
+Very truly yours, 
+ 
+ 
+ 
+AAFCPAs, Inc.  
+Certified Public Accountants 
+ 
+ 
+ACCEPTED AND AGREED: 
+ 
+              		            _____________________ 
+Printed Signer Name    							Title 
+ 
+ _______________________________________________________________________________ 
+Signer Signature                                                                                                                    Date 
