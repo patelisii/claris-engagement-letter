@@ -17,4 +17,8 @@
             - informationDeadline
             - completionDate
         - Signer Information (name and title)
+    - Data we query
+        - customer info using customer name
+        - letter template using engagement type
+        - TODO: MSA date using customer name
 

@@ -22,18 +22,19 @@ def generate_letter(letterInfo):
     
     {customerInfo}
     
-    Fill in this SOW engagement letter template for tax consulting using the information in the JSON above. Here is the template:
+    Fill in this SOW engagement letter template for {letterInfo["engagement_type"]} using the information above. Here is the template:
     
     {template}
     """
     
     response = openai.chat.completions.create(
-        model = 'gpt-3.5-turbo-16k',
+        model = 'gpt-4-1106-preview',
         messages = [{'role': 'user', 'content': prompt}],
     )
     
-    return response
+    return response.choices[0].message.content
 
 
 f = open('data/sample_input.json')
 data = json.load(f)
+print(generate_letter(data))

@@ -42,6 +42,3 @@ def get_client_info(customer_name):
         return client_info
     else:
         return {"error": "Customer not found."}
-    
-    
-print(get_client_info("Williams-Clark"))
