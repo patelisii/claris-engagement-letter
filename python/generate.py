@@ -2,14 +2,20 @@ import os
 import json
 import openai
 from dotenv import load_dotenv
+from datetime import datetime
 
-from retrievers.customer_data_retriever import get_client_info
-from retrievers.template_retriever import get_sow_temlpate
+
+from python.retrievers.customer_data_retriever import get_client_info
+from python.retrievers.template_retriever import get_sow_temlpate
 
 load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_KEY")
 
 def generate_letter(letterInfo):
+
+    current_date = datetime.now().date()
+
+    letterInfo['date'] = current_date
     customerInfo = get_client_info(letterInfo["customer_name"])
     template = get_sow_temlpate(letterInfo["engagement_type"])
     
@@ -34,7 +40,7 @@ def generate_letter(letterInfo):
     
     return response.choices[0].message.content
 
-
+'''
 f = open('data/sample_input.json')
 data = json.load(f)
-print(generate_letter(data))
+print(generate_letter(data))'''
