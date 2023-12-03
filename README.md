@@ -22,3 +22,13 @@
         - letter template using engagement type
         - TODO: MSA date using customer name
 
+
+
+## Commands
+To host the api, run the following command in your terminal: 
+```
+uvicorn main:app --reload
+```
+
+
+
