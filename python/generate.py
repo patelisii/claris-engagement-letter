@@ -3,8 +3,9 @@ import json
 import openai
 from dotenv import load_dotenv
 from datetime import datetime
+import sqlite3
 
-
+'''
 from python.retrievers.customer_data_retriever import get_client_info
 from python.retrievers.template_retriever import get_sow_temlpate
 
@@ -37,10 +38,33 @@ def generate_letter(letterInfo):
         model = 'gpt-4-1106-preview',
         messages = [{'role': 'user', 'content': prompt}],
     )
+
+
     
-    return response.choices[0].message.content
+    return response.choices[0].message.content'''
+
+
+
+def add_letter_to_db(letterInfo):
+
+    conn = sqlite3.connect('data/engagement_letters_table.db')
+    cursor = conn.cursor()
+
+    cursor.execute('''
+    INSERT INTO engagementLettersMeta 
+    (EngagementType, Date, SignerName, SignerTitle, PartnerName, PartnerContactNumber, CustomerName, MSADate) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (letterInfo['engagement_type'], letterInfo['date'], 
+          letterInfo['signerInfo']['name'], letterInfo['signerInfo']['title'], 
+          letterInfo['partnerInfo']['partnerName'], letterInfo['partnerInfo']['partnerContactNumber'],
+          letterInfo['customer_name'], letterInfo['msaDate']))
+
+
+    conn.commit()
+    conn.close()
 
 '''
 f = open('data/sample_input.json')
 data = json.load(f)
-print(generate_letter(data))'''
+print(data)
+#print(generate_letter(data))'''

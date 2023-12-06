@@ -28,7 +28,7 @@ cursor.execute('''
         StatesOperatedIn TEXT
     )
 ''')
-
+               
 # Insert customer data into the table
 customer_df.to_sql('customers', conn, if_exists='replace', index=False)
 
