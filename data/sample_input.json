@@ -1,30 +1,72 @@
 {
     "customer_name": "Williams-Clark",
     "engagement_type": "Tax Consulting SOW",
-    "services": [
+    "date": "2023-04-01",
+    "msaDate": "2023-03-01",
+    "signerInfo": {
+        "name": "Jane Doe",
+        "title": "Chief Tax Officer"
+    },
+    "partnerInfo": {
+        "partnerName": "Michael Johnson",
+        "partnerContactNumber": "(555) 789-0123"
+    },
+    "taxConsultingDetails": {
+      "serviceYear": "2021",
+      "consultingServices": [
         "Corporate tax strategy planning",
-        "State and local tax compliance review",
-        "International tax optimization",
-        "Tax risk management and mitigation"
-    ],
-    "fee_structure": {
-        "feeAmount": 25000,
-        "paymentSchedule": [
-        "Initial invoice upon receiving the signed SOW",
-        "Progress invoice at 50% project completion",
-        "Final invoice upon project delivery"
+        "International tax compliance review",
+        "Tax risk management advisory",
+        "R&D tax credit analysis"
+      ],
+      "consultingFeeStructure": {
+        "feeAmount": "15,000",
+        "paymentTerms": "Net 30 days",
+        "invoiceSchedule": [
+          "Initial invoice upon receiving the signed SOW",
+          "50% completion invoice",
+          "Final invoice upon project delivery"
         ]
+      },
+      "projectTimeline": {
+        "informationDeadline": "2023-05-15",
+        "completionDate": "2023-09-30"
+      }
     },
-    "timeline": { 
-        "informationDeadline": "2023-07-15",
-        "completionDate": "2023-12-20"
-    },
-    "signer_info": {
-        "name": "John Doe",
-        "title": "Senior Tax Consultant"
-    },
-    "partner_info": {
-        "partnerName": "Emily Smith",
-        "partnerContact": "(555) 123-4567"
+    "taxComplianceDetails": {
+      "serviceYear": "2021",
+      "complianceServices": [
+        "Federal",
+        "New York",
+        "California",
+        "Texas"
+      ],
+      "includeTaxPlanning": false,
+      "includeAuditParagraph": false,
+      "complianceFeeStructure": {
+        "includedWithAudit": false,
+        "feeAmount": "20,000",
+        "additionalStateFee": 1000,
+        "paymentTerms": "Net 45 days",
+        "invoiceSchedule": [
+          "Initial invoice upon receiving the signed SOW",
+          "Progress invoice at tax filing extension",
+          "Final invoice upon completion of returns"
+        ]
+      },
+      "complianceProjectTimeline": {
+        "informationDeadline": "2023-07-01",
+        "filingDeadline": "2023-10-15",
+        "extensionDeadline": "2024-01-15"
+      },
+      "taxpayerAuthorization": {
+        "period": "Seven years from the date of this engagement letter",
+        "authorizedEntities": [
+          "Global Tax Advisors Ltd. in the Netherlands",
+          "Smith & Associates in New Zealand"
+        ]
+      },
+      "substantiationRules": "Client must provide adequate records for travel, entertainment, business gifts, and listed property expenses as per IRS Section 274(d)."
     }
-}
+  }
+  
