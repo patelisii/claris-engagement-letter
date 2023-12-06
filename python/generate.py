@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 import sqlite3
 
-'''
+
 from python.retrievers.customer_data_retriever import get_client_info
 from python.retrievers.template_retriever import get_sow_temlpate
 
@@ -41,11 +41,9 @@ def generate_letter(letterInfo):
 
 
     
-    return response.choices[0].message.content'''
+    return response.choices[0].message.content
 
-
-
-def add_letter_to_db(letterInfo):
+def add_meta_letter_to_db(letterInfo):
 
     conn = sqlite3.connect('data/engagement_letters_table.db')
     cursor = conn.cursor()

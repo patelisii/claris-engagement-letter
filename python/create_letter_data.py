@@ -1,12 +1,8 @@
-
 import sqlite3
-
-
 
 # Re-establish connection to the SQLite database
 conn = sqlite3.connect('data/engagement_letters_table.db')
 cursor = conn.cursor()
-
 
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS engagementLettersMeta (

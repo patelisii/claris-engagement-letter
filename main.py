@@ -23,5 +23,5 @@ async def receive_dictionary(item: Item):
     if not item.inputs:
         raise HTTPException(status_code=400, detail="No provisions provided")
     engagementLetterText = generate_letter(item.inputs)
-    add_letter_to_db(item.inputs)
+    add_meta_letter_to_db(item.inputs)
     return {"data": engagementLetterText}
