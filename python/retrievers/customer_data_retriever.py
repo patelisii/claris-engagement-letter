@@ -42,3 +42,104 @@ def get_client_info(customer_name):
         return client_info
     else:
         return {"error": "Customer not found."}
+
+
+import sqlite3
+
+
+# Function to query data based on customer name and engagement type
+def query_engagement_data(customer_name, engagement_type):
+    
+    # Connect to SQLite database
+    conn = sqlite3.connect('data/SOW_engagement_letters.db')  # Replace with your database file
+
+    cursor = conn.cursor()
+
+    # SQL query to fetch the required data
+    if engagement_type == "Tax Consulting SOW":
+        query = '''
+        SELECT 
+            c.customer_name, 
+            se.engagement_type, 
+            se.date AS engagement_date,
+            mse.date AS msa_date,
+            se.partner_name, 
+            se.partner_contact_number,
+            cd.service_year AS consulting_service_year,
+            cd.consulting_fee_amount,
+            cd.payment_terms AS consulting_payment_terms,
+            cd.information_deadline AS consulting_information_deadline,
+            cd.completion_date AS consulting_completion_date,
+            cd.consulting_services
+        FROM 
+            customers c
+        JOIN 
+            sow_engagements se ON c.customer_id = se.customer_id
+        JOIN
+            msa_engagements mse ON c.customer_id = mse.customer_id
+        LEFT JOIN 
+            consulting_details cd ON se.engagement_id = cd.engagement_id
+        WHERE 
+            c.customer_name = ? AND se.engagement_type = ?
+        ORDER BY 
+            se.date DESC
+        LIMIT 1
+        '''
+    else:  # Assuming engagement_type is "Tax Compliance SOW"
+        query = '''
+        SELECT 
+            c.customer_name, 
+            se.engagement_type, 
+            se.date AS engagement_date,
+            mse.date AS msa_date,
+            se.partner_name, 
+            se.partner_contact_number,
+            cpd.service_year AS compliance_service_year,
+            cpd.fee_amount AS compliance_fee_amount,
+            cpd.additional_state_fee,
+            cpd.payment_terms AS compliance_payment_terms,
+            cpd.extension_deadline,
+            cpd.include_tax_planning,
+            cpd.include_audit_paragraph,
+            cpd.included_with_audit,
+            cpd.compliance_services,
+            cpd.taxpayer_authorization_period,
+            cpd.substantiation_rules
+        FROM 
+            customers c
+        JOIN 
+            sow_engagements se ON c.customer_id = se.customer_id
+        JOIN
+            msa_engagements mse ON c.customer_id = mse.customer_id
+        LEFT JOIN 
+            compliance_details cpd ON se.engagement_id = cpd.engagement_id
+        WHERE 
+            c.customer_name = ? AND se.engagement_type = ?
+        ORDER BY 
+            se.date DESC
+        LIMIT 1
+        '''
+    
+    # Execute the query
+    cursor.execute(query, (customer_name, engagement_type))
+
+    # Fetch all the rows
+    rows = cursor.fetchall()
+    columns = [column[0] for column in cursor.description]
+
+    # Convert rows to dictionaries
+    result = [dict(zip(columns, row)) for row in rows]
+
+    # Close the cursor
+    cursor.close()
+    conn.close()
+
+    return result
+
+# Example usage
+# customer_name = "Beta Ltd."  # Replace with the desired customer name
+# engagement_type = "Tax Compliance SOW"  # Replace with the desired engagement type
+# data = query_engagement_data(customer_name, engagement_type)
+
+# print(data)
+

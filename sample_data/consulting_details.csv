@@ -1,0 +1,6 @@
+consulting_id,engagement_id,service_year,consulting_fee_amount,payment_terms,information_deadline,completion_date,consulting_services
+1,1,2021,15000,Net 30 days,2023-05-15,2023-09-30,"Corporate tax strategy planning, International tax compliance review, Tax risk management advisory, R&D tax credit analysis"
+2,3,2021,17000,Net 45 days,2023-06-10,2023-10-20,"Corporate tax strategy planning, State and local tax compliance review"
+3,5,2022,20000,Net 30 days,2023-07-22,2023-11-30,"International tax compliance review, Tax risk management advisory"
+4,1,2023,25000,Net 30 days,2023-08-15,2023-12-10,"Corporate tax strategy planning, R&D tax credit analysis"
+5,3,2023,22000,Net 45 days,2023-09-05,2023-12-20,"State and local tax compliance review, Tax risk management advisory"

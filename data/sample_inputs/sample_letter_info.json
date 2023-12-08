@@ -1,0 +1,26 @@
+{
+    "customer_name": "Beta Ltd.",
+    "engagement_type": "Tax Compliance SOW",
+    "signer_name": "Emma Smith",
+    "signer_title": "Chief Tax Officer",
+    "taxConsultingDetails": {
+      "projectTimeline": {
+        "informationDeadline": "2023-05-15",
+        "completionDate": "2023-09-30"
+      }
+    },
+    "taxComplianceDetails": {
+      "complianceProjectTimeline": {
+        "informationDeadline": "2023-07-01",
+        "filingDeadline": "2023-10-15",
+        "extensionDeadline": "2024-01-15"
+      },
+      "taxpayerAuthorization": {
+        "authorizedEntities": [
+          "Global Tax Advisors Ltd. in the Netherlands",
+          "Smith & Associates in New Zealand"
+        ]
+      }
+    }
+  }
+  

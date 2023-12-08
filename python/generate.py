@@ -6,8 +6,8 @@ from datetime import datetime
 import sqlite3
 
 
-from python.retrievers.customer_data_retriever import get_client_info
-from python.retrievers.template_retriever import get_sow_temlpate
+from retrievers.customer_data_retriever import query_engagement_data
+from retrievers.template_retriever import get_sow_temlpate
 
 load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_KEY")
@@ -16,8 +16,10 @@ def generate_letter(letterInfo):
 
     current_date = datetime.now().date()
 
-    letterInfo['date'] = current_date
-    customerInfo = get_client_info(letterInfo["customer_name"])
+    letterInfo['engagement_date'] = current_date
+    letterInfo['service_year'] = current_date.year
+    
+    storedInfo = query_engagement_data(letterInfo["customer_name"], letterInfo["engagement_type"])
     template = get_sow_temlpate(letterInfo["engagement_type"])
     
     prompt = f"""
@@ -25,9 +27,7 @@ def generate_letter(letterInfo):
     
     {letterInfo}
     
-    Here is the client's information:
-    
-    {customerInfo}
+    {storedInfo}
     
     Fill in this SOW engagement letter template for {letterInfo["engagement_type"]} using the information above. Here is the template:
     
@@ -61,8 +61,8 @@ def add_meta_letter_to_db(letterInfo):
     conn.commit()
     conn.close()
 
-'''
-f = open('data/sample_input.json')
+
+f = open('data/sample_inputs/sample_letter_info.json')
 data = json.load(f)
 print(data)
-#print(generate_letter(data))'''
+print(generate_letter(data))

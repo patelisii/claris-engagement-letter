@@ -1,0 +1,6 @@
+engagement_id,customer_id,engagement_type,date,signer_name,signer_title,partner_name,partner_contact_number
+1,1,Tax Consulting SOW,2023-06-01,Jane Smith,Chief Financial Officer,John Doe,(555) 123-4567
+2,2,Tax Compliance SOW,2023-07-15,Michael Brown,Director of Finance,Jane Johnson,(555) 234-5678
+3,3,Tax Consulting SOW,2023-08-20,Emily White,Financial Controller,Bob Smith,(555) 345-6789
+4,4,Tax Compliance SOW,2023-09-25,William Green,Treasurer,Alice Davis,(555) 456-7890
+5,5,Tax Consulting SOW,2023-11-10,Anna Black,Director of Accounting,Sam Wilson,(555) 567-8901
