@@ -6,8 +6,8 @@ from datetime import datetime
 import sqlite3
 
 
-from retrievers.customer_data_retriever import query_engagement_data
-from retrievers.template_retriever import get_sow_temlpate
+from python.retrievers.customer_data_retriever import query_engagement_data
+from python.retrievers.template_retriever import get_sow_temlpate
 
 load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_KEY")
@@ -62,7 +62,7 @@ def add_meta_letter_to_db(letterInfo):
     conn.close()
 
 
-f = open('data/sample_inputs/sample_letter_info.json')
-data = json.load(f)
-print(data)
-print(generate_letter(data))
+# f = open('data/sample_inputs/sample_letter_info.json')
+# data = json.load(f)
+# print(data)
+# print(generate_letter(data))
